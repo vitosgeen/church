@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Module for creating ctools access plugin.
+ */
+
+/*
+ * Implements hook_ctools_plugin_directory().
+ */
+function access_example_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'ctools' && !empty($plugin_type)) {
+   return "plugins/{$plugin_type}";
+  }
+}

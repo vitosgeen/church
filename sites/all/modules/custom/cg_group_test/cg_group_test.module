@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function cg_group_test_ctools_plugin_directory($module, $plugin_type) {
+  if ($module == 'ctools' && $plugin_type=='contexts') {
+    return "plugins/{$plugin_type}";
+  }
+  if ($module == 'ctools' && $plugin_type=='access') {
+    return "plugins/{$plugin_type}";
+  }
+  if ($module == 'ctools' && $plugin_type=='content_types') {
+    return "plugins/{$plugin_type}";
+  }
+}  

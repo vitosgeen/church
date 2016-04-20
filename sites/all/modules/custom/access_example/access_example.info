@@ -1,0 +1,5 @@
+name = "Access Example"
+description = Provides ctools access example plugin
+core = 7.x
+dependencies[] = ctools
+dependencies[] = panels

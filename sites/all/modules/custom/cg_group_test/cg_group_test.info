@@ -1,0 +1,4 @@
+name = cg-group test
+description = test task(current Unix timestamp (time() function) so that if timestamp is odd it returns TRUE, and FALSE if even)
+core = 7.x
+dependencies[] = ctools 

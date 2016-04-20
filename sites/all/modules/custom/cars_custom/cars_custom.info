@@ -1,0 +1,11 @@
+name = cars custom
+package = cars custom
+description = cars_custom
+core = 7.x
+php = 5.1
+
+
+version = "7.x-1.3"
+core = "7.x"
+project = "cars_custom"
+datestamp = "1407406129"
